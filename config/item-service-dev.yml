@@ -3,9 +3,8 @@ spring:
     name: item-service
   cloud:
     config:
-      override-none: true dsfgergherh
-      override-none: true d23456465
-      override-none: true 654646h
+      override-none: true
+  
 
 server:
   port: 8001    
