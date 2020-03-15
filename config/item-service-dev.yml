@@ -6,6 +6,7 @@ spring:
       override-none: true  
       #ceshiceshi1
       #ceshi 2
+      #Ceshi 3
 server:
   port: 8001    
 eureka:
