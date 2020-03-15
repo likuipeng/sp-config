@@ -18,7 +18,7 @@ zuul:
     user-service: /user-service/**
     order-service: /order-service/**
     sensitive-headers: Cookie,Set-Cookie,Authorization
-    add-host-header: true
+    
     
 
   retryable: true
