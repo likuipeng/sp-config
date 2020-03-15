@@ -4,6 +4,7 @@ spring:
   cloud:
     config:
       override-none: true  
+      #ceshiceshi1
 server:
   port: 8001    
 eureka:
