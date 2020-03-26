@@ -3,7 +3,13 @@ spring:
     name: order-service
   cloud:
     config:
-      override-none: true  
+      override-none: true 
+       
+rabbitmq:
+  host: 192.168.64.140
+  port: 5672
+  ussername: admin
+  password: admin     
 server:
   port: 8201  
 eureka:
@@ -17,5 +23,4 @@ management:
   endpoints:
     web:
       exposure:
-        include:
-        - hystrix.stream          
+        include: refresh
