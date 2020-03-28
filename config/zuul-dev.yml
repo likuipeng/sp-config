@@ -9,7 +9,12 @@ spring:
     host: 192.168.64.140     
     port: 5672
     username: admin
-    password: admin      
+    password: admin  
+    inetutils:
+      ignored-interfaces: 
+        - VM.*
+      preferred-networks: 
+        - 192.168.0    
 server:
   port: 3001
 eureka:
